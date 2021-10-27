@@ -1,0 +1,28 @@
+<?php
+session_start();
+require 'fungsi.php';
+
+//Menggunakan method get untuk mengambil id yang telah terseleksi oleh user dan dimasukkan
+//kedalam variabel baru yaitu $id
+$id=$_GET["id"];
+
+if(hapuscek ($id)>0)
+{
+    echo "
+    <script>
+        
+        history.back(self);
+    </script>";
+    // header("location:cart.php");
+}
+else
+{
+    echo "
+    <script>
+
+        history.back(self);
+    </script>";    
+    echo "<br>";
+    echo mysqli_error($conn);
+}
+?>
