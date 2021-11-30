@@ -9,8 +9,8 @@ if(isset($_SESSION["login"]))
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Morfeen &ndash; Distro & CLothing</title>
-    <link rel="icon" href="images/logo.png">
+    <title>Morfeen Official</title>
+    <link rel="icon" href="images/logo1.png">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -117,7 +117,7 @@ if(isset($_SESSION["login"]))
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo">
             <div class="site-logo">
-              <a class="js-logo-clone">Morfeen Thirteen</a>
+              <a class="js-logo-clone">Morfeen Official</a>
             </div>
           </div>
         
@@ -127,7 +127,7 @@ if(isset($_SESSION["login"]))
                 <li class="has-children ">
                   <a href="">Login <span class="icon-user"></span></a>
                   <ul class="dropdown">
-                    <li><a href="auth/login.php">Login Customer    <span class="icon-users"></span></a></li>
+                    <li><a href="auth/login.php">Login Customer<span class="icon-users"></span></a></li>
                     <li><a href="auth/loginadmin.php">Login Admin <span class="icon-wrench"></span></a></li>
                   </ul>
                 </li>
@@ -144,21 +144,21 @@ if(isset($_SESSION["login"]))
         <div class="row">
           <div class="col-md-6 ml-auto order-md-2 align-self-start title-section mb-5 col-12 title-section text-center mb-5 col-12">
             <div class="site-block-cover-content">
-            <h1 class="site-navbar site-menu">Happy Shopping</h1>
-            <h2>Morfeen Thirteen</h2>
+            <h1 class="site-navbar site-menu">Selamat Datang</h1>
+            <h2>Morfeen Store Sukun</h2>
             </div>
           </div>
           <div class="col-md-6 order-1 align-self-end">
-            <img src="images/f5.png" alt="Image" class="img-fluid">
+            <img src="images/storeindex1.JPG" alt="Image" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
-
+    
     <div class="site-section">
       <div class="container">
         <div class="title-section mb-5">
-        <h2>Advertisement Page</h2>
+        <h2>Event</h2>
         <br><br>
         <h5>Morfeen Thirteen Store :</h5>
         <br>
