@@ -147,7 +147,7 @@ $cekout = query("SELECT * FROM cekout ");
               <h6>dan Second Store Kami</h6>
               <a href="https://www.instagram.com/morfeenstore_2nd/">instagram.com/morfeenstore_2nd</a>
               <br><br><br>
-              <p>Build on &mdash; Agustus, 2019</p>
+              <p>Build on &mdash; November, 2021</p>
             </a>
           </div>
           <div class="col-lg-5 ml-auto mb-5 mb-lg-0">
@@ -171,7 +171,7 @@ $cekout = query("SELECT * FROM cekout ");
       <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Deny Pratama | All rights reserved
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> by MI 3B | All rights reserved
             </p>
           </div>
           

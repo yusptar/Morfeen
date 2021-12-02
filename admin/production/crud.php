@@ -335,7 +335,7 @@ if (isset($_POST["cari"]))
              <p>
                 Copyright &copy;<script>
                 document.write(new Date().getFullYear());
-                </script> by Deny Pratama | All rights reserved
+                </script> by MI 3B | All rights reserved
               </p>
           </div>
           <div class="clearfix"></div>

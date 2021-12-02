@@ -121,7 +121,7 @@
             <a href="shop.php" class="block-6">
               <h3 class="font-weight-light  mb-0">Temukan clothing kesukaan mu di Morfeen</h3>
               <br>
-              <p>Build on &mdash; September, 2019</p>
+              <p>Build on &mdash; November, 2021</p>
             </a>
           </div>
           <div class="col-lg-5 ml-auto mb-5 mb-lg-0">
@@ -163,7 +163,7 @@
       <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Deny Pratama | All rights reserved
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> by MI 3B | All rights reserved
             </p>
           </div>
           

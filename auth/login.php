@@ -175,7 +175,7 @@ if(isset($_POST["login"]))
 				<div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Deny Pratama | All rights reserved
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> by MI 3B | All rights reserved
             </p>
           </div>
           
