@@ -1,0 +1,39 @@
+version: "3.8"
+services:
+  php-apache-environment:
+    image: 1931710110/uas
+    container_name: apache-morfeen
+    depends_on:
+      - db
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - 8000:80
+    networks:
+      - backend
+
+  db:
+    container_name: db-morfeen
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Morfeen13
+      MYSQL_DATABASE: dbuas
+    ports:
+      - "9806:3306"
+    volumes:
+      - db:/var/lib/mysql
+      - ./morfeen.sql:/docker-entrypoint-initdb.d/dbuas.sql
+    networks:
+      - backend
+
+volumes:
+  db:
+
+networks:
+  backend:
+    name: backend-network-morfeen
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.13.0.0/24
